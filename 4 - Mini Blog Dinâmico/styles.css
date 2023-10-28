@@ -1,0 +1,32 @@
+* {
+    margin: 5px;
+    padding: 2px;
+}
+
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    align-items: center;
+    display: flex;
+    background-color: #968126;
+    color: #ffffff;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+
+.article {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 50px;
+}
+
+.article-title {
+    margin-bottom: 20px;
+}
