@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(126, 167, 212);
+    
+}
+
+.profile {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.profile h2 {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.profile p {
+   border: 0.5px solid lightslategray;
+    padding: 10px 0;
+    width: 50%;
+    border-radius:25px;
+    box-shadow: 0px 0px 10px black;
+ 
+}
+
+.social-links {
+display: flex;
+justify-content: center;
+gap: 10px;
+padding: 10px;
+}
