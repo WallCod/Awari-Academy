@@ -1,4 +1,5 @@
-Conceitos de JavaScript
+<center>Conceitos de JavaScript</center>
+
 Esta demonstração contém exemplos de códigos básicos em JavaScript, que mostram como são programados os recursos fundamentais da linguagem.
 
 Os códigos exemplificam sobre os seguintes conceitos:
