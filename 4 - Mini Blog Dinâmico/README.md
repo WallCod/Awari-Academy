@@ -1,3 +1,5 @@
+# Mini blog Dinâmico
+
 Nesta prática, criaremos um mini blog com HTML, CSS e JavaScript. As tarefas são:
 
 criar uma página web que contenha alguns posts listados;
