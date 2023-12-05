@@ -10,4 +10,8 @@ Esta prática exemplifica como fazer uma listagem de usuários no React.js.
 
 Inicie o servidor de desenvolvimento: No terminal, navegue até o diretório do seu projeto e execute o comando npm start ou yarn start, dependendo do gerenciador de pacotes que você está usando. Isso iniciará o servidor de desenvolvimento e recarregará a página sempre que você fizer alterações no código.
 
+6 - Verifique se o ‘react-scripts’ está instalado: No seu terminal, navegue até a pasta do seu projeto e execute o comando npm ls react-scripts. Se ‘react-scripts’ estiver instalado, você verá a versão instalada. Se não estiver instalado, você pode instalá-lo com o comando npm install react-scripts.
+
+7 - Se tudo estiver correto , pode executar o npm start e verá sua aplicação abrir uma página na WEB automaticamente .
+
 
