@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Tutorial</title>
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.0.0-beta.3/babel.js"></script>
+
+</head>
+
+<body>
+    <div id="root"></div>
+
+<script type="text/babel">
+    const element = <h1>Olá , mundo, com React.js </h1>
+    console.log(element);
+    ReactDOM.render(element, document.getElementById("root"));
+
+</script>
+</body>
+
+</html>
+
+<!--
+Analisando o Código:
+
+1 - Dentro das tags <head></head>, nós importamos React e React-DOM via CDN,
+que nada mais é do que um link que inserimos em nosso documento html.
+Importamos também o Babel, um compilador para JavaScript.
+
+2 - Nas tags <body></body>, criamos uma div (elemento HTML) com o id="root".
+Tudo isso é HTML básico. React costuma usar esse único “nó”, algo como <div id="root"></div>,
+para renderizar uma aplicação na tela. Todo o restante é feito nos bastidores.
+
+3 - Em <script type="text/babel">, chamamos o compilador e escrevemos JavaScript básico:
+
+Quer dizer, já na primeira linha, há algo um pouco estranho, o <h1>Olá, mundo, com React.js!</h1>
+atribuído a uma constante, o que JavaScript não aceitaria. Trata-se da sintaxe JSX, nativa do React.
+
+Na sequência, chamamos console.log, que nos comunicará sobre o que está acontecendo no console do navegador ou do terminal.
+
+Por fim, chamamos ReactDOM.render(), método responsável por renderizar nosso element na div “root” no navegador.
+
+React e Babel se encarregam de fazer a “mágica” nos bastidores e nos entregar HTML na tela.
+
+Depois abra o index.html no seu navegador para vê como ficou .
+
+O que fizemos em nosso exemplos poderia ser feito com a API Web DOM diretamente, apenas com HTML e JavaScript puro.
+
+
+
+-->
