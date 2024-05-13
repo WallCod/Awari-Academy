@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>React Props</title>
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.0.0-beta.3/babel.js"></script>
+ 
+</head>
+
+<body>
+ <div id="root"></div>
+
+ <script type="text/babel">
+ function BemVindo({saudacao = "Olá", nome}) {
+ return <h1> {saudacao}, {nome}! </h1>;
+}
+
+ReactDOM.render(<BemVindo  nome="Ciclano" />, document.getElementById("root"));
+
+</script>
+</body>
+</html><Script:module></Script:module>
