@@ -1,5 +1,8 @@
 # Prática: Lista de Usuários
 
+![Layout a ser reproduzido](image.jpeg)
+
+
 Esta prática exemplifica como fazer uma listagem de usuários no React.js.
 
 1 - Criamos uma nova aplicação React.js
