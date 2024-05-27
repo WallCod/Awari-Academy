@@ -3,7 +3,7 @@
 ![Layout a ser reproduzido](image.jpeg)
 
 
-## Esta prática exemplifica como fazer uma listagem de usuários no React.js.
+### Esta prática exemplifica como fazer uma listagem de usuários no React.js.
 
 ### 1 - Criamos uma nova aplicação React.js
 ### 2 - Criamos um componente responsável por exibir as informações sobre usúarios na aplicação (item).
