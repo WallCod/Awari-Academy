@@ -10,8 +10,11 @@ Esta prática exemplifica como fazer uma listagem de usuários com navegação e
 3 - Criar 3 páginas dentro desta pasta pages;
 
   3.1 - Home (página que irá conter a lista de usuários);
+
   3.2 - Details (página que irá exibir os detalhes de cada usuário);
+
   3.3 - Error (página que será exibida quando o endereço informado na url for inválido);
+
   3.4 - Implementar o componente Router, responsável pelo roteamento;
 
 4 - Implementar no componente Item um botão “Ver detalhes”, o qual, ao ser clicado, deve redirecionar o usuário para a página Details;
@@ -19,7 +22,9 @@ Esta prática exemplifica como fazer uma listagem de usuários com navegação e
 5 - Ao acessar a aplicação:
 
   5.1 - Na página Home, deve-se exibir a lista de usuários;
+
   5.2 - Ao clicar no botão “Ver detalhes”, o usuário deve ser redirecionado para a página que contém os detalhes do usuário específico;
+  
   5.3 - A página Details deve exibir nome, descrição e uma imagem do usuário;
 
 6 - Deve ser possível retornar à página ”Home”;
