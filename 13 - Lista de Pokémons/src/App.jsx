@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
+    fetch('https://pokeapi.co/api/v2/pokemon?limit=300')
     .then((response) => {
       return response.json();
     })
