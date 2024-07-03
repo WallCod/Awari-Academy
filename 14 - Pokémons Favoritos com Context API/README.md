@@ -5,5 +5,5 @@ Esta prática exemplifica como obter dados de uma API e listá-los no front-end 
 
 Nesta prática, as tarefas são:
 
-1 - Incrementar o recurso Context API na nossa lista de Pokemon da aula anterior .
+1 - Incrementar o recurso Context API na nossa lista de Pokémons da aula anterior .
 
