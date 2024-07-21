@@ -1,0 +1,3 @@
+# React Storybook
+
+Este projeto exemplifica como implementar uma documentação voltada para front-end usando Storybook.
