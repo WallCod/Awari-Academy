@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import {List} from './components';
+import List from './components';
  
 function App() {
   const [ items, setItems ] = (useState) ([]);
@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=300')
+    fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
     .then((response) => {
       return response.json();
     })
