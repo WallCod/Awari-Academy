@@ -2,10 +2,14 @@
 
 Nesta prática, criaremos um mini blog em HTML puro. As tarefas são:
 
-criar a página principal de um site listando 3 resumos de artigos;
+1 - Criar uma nova pasta para nosso mini-blog.
 
-inserir um link “Ler artigo completo” em cada um dos resumos dos artigos;
+2 - Criar uma página principal(index.html) de um site listando 3 resumos de artigos;
 
-garantir que, ao clicar no link, o usuário seja direcionado para uma página que contenha o artigo completo (texto do artigo);
+3 - Criar 3 Páginas para , 1 para cada artigo .
 
-a página que exibe o artigo completo deverá possuir um link que permita voltar à página principal;
+4 - Inserir um link “Ler artigo completo” em cada um dos resumos dos artigos;
+
+5 - Garantir que, ao clicar no link, o usuário seja direcionado para uma página que contenha o artigo completo (texto do artigo);
+
+6 - a página que exibe o artigo completo deverá possuir um link que permita voltar à página principal;
