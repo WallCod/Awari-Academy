@@ -2,9 +2,8 @@
 
 Nesta prática, criaremos um formulário de contato usando HTML, CSS e Javascript. As tarefas são:
 
-Criar um formulário de contato em HTML contendo os campos nome, email, mensagem e um botão “Enviar”.
+1 - Criar um formulário de contato em HTML(index.html) contendo os campos nome, email, mensagem e um botão “Enviar”.
 
-Garantir que, quando o usuário pressionar o botão “Enviar” do formulário, a aplicação exiba na tela uma janela de alerta com os dados preenchidos ( deve-se usar JavaScript para implementar este comportamento).
+2 - Garantir que, quando o usuário pressionar o botão “Enviar” do formulário, a aplicação exiba na tela uma janela de alerta com os dados preenchidos (script.js) ( deve-se usar JavaScript para implementar este comportamento) (Criaremos um arquivo chamado script.js).
 
-O formulário deverá estar centralizado na tela (deve-se usar CSS para tratar o estilo).
-Caso tenha dúvidas ou problemas com a prática, peça ajuda ao instrutor ou tente estudá-la junto de seu mentor.
+3 - O formulário deverá estar centralizado na tela (style.css) (deve-se usar CSS para tratar o estilo) (Criaremos uma página CSS com o nome style.css).
