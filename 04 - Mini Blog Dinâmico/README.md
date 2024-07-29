@@ -2,5 +2,8 @@
 
 Nesta prática, criaremos um mini blog com HTML, CSS e JavaScript. As tarefas são:
 
-criar uma página web que contenha alguns posts listados;
-exibir posts na página usando JavaScript; estilizar (formatar) os elementos da página usando CSS.
+1 - Criar uma página web (index.html) que contenha alguns posts listados;
+
+2 - Exibir posts na página usando JavaScript (Criar um arquivo Script.js); 
+
+3 - Estilizar (formatar) os elementos da página usando CSS (Criar um arquivo styles.CSS).
