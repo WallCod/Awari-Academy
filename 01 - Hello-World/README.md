@@ -12,26 +12,10 @@ Passo a Passo .
 
 3 . Dentro dessa pasta, criamos um arquivo chamado index.html .
 
-4 . Depois colocamos o código a seguir .
- 
- 4.1 . /*<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-</head>
-<body>
-<center>
-    <h1>Hello World !</h1>
-</center>
-</body>
-</html>*/
+4 . Depois codamos o código no arquivo index.html .
 
-5 . Agora subir pro GITHUB e abrir com o Live Server e vê como ficou.
+5 . Agora abrir com o Live Server e vê como ficou, depois subir pro GitHub.
 
+Finalizamos nosso código .
 
 Bom Aproveitamento
-
-
-
