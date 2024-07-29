@@ -12,4 +12,4 @@ Nesta prática, criaremos um mini blog em HTML puro. As tarefas são:
 
 5 - Garantir que, ao clicar no link, o usuário seja direcionado para uma página que contenha o artigo completo (texto do artigo);
 
-6 - a página que exibe o artigo completo deverá possuir um link que permita voltar à página principal;
+6 - A página que exibe o artigo completo deverá possuir um link que permita voltar à página principal;
