@@ -14,7 +14,7 @@ Passo a Passo .
 
 4 . Depois colocamos o código a seguir .
  
- 4.1 . //<!DOCTYPE html>
+ 4.1 . /*<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@ Passo a Passo .
     <h1>Hello World !</h1>
 </center>
 </body>
-</html>//
+</html>*/
 
 5 . Agora subir pro GITHUB e abrir com o Live Server e vê como ficou.
 
