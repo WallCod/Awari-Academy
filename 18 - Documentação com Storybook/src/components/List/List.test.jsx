@@ -36,7 +36,7 @@ describe('List Component', () => {
         render(<List />);
         expect(screen.getByTestId('list')).toBeInTheDocument();
     });
-
+ 
     it('should render items correctly', () => {
         render(<List items={mockedItems} />);
         expect(screen.getByTestId('list')).toBeInTheDocument();
