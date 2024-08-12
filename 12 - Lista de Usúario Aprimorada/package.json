@@ -1,20 +1,25 @@
 {
   "name": "react-dx",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "author": {
-    "name": "Wallax figueiredo",
-    "url": "https://github.com/WallCod"
+    "name": "Vinicius Fortunato",
+    "url": "https://github.com/vinifortunato"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "husky": "^8.0.2",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,11 +56,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "eslint": "^8.57.0",
-    "husky": "^9.0.11"
   }
 }

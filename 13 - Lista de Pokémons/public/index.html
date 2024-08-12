@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lista de Pokémons</title>
-</head>
+    <!-- Adicionando descrição para aumentar a qualidade do SEO -->
+    <meta name="description" content="Author W. S. Figueiredo" />
+    <title>Lista de Pokémons</title>
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
+    <!--Adicionando TAG de pré-ligação , para melhorar o desempenho da apliçação-->
+    <link rel="preconnect" href="https://pokeapi.co/api/v2/pokemon?limit=1" />
 
+    <!--Adicionando TAG de pré-carregamento , para melhorar o desempenho da apliçação-->
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
